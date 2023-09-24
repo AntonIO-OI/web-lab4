@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <title>Construction business</title>
   </head>
   <body>
-    <header class="header">
+    <!-- Header -->
+    <header class="header" id="header">
       <div class="container">
         <div class="header__inner">
           <div class="search-container">
@@ -55,28 +62,143 @@
             </form>
           </div>
           <div class="burger">
-            <a class="burger-link" href="#" id="menu">
+            <div class="burger-link" id="menu">
               <div>
                 <span class="line-1"></span><span class="line-2"></span
                 ><span class="line-3"></span>
               </div>
-            </a>
+            </div>
           </div>
 
           <ul class="nav-menu" id="nav-menu">
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
     </header>
-    <section class="main">
+
+    <!-- Main section -->
+    <section class="main" id="main">
       <div class="background">
-        <div class="container"></div>
+        <div class="container">
+          <h1 class="title">Popular Services</h1>
+          <p class="subtitle">
+            As a customer-focused solution provider, we’re dedicated to
+            redefining the home improvement service experience for homeowners
+            and commercial property owners.
+          </p>
+
+          <div class="cards">
+            <div class="card">
+              <img
+                src="assets/images/68329523666a4ad4bffb0236ab8015fc.png"
+                alt=""
+                class="card-img"
+              />
+              <div class="img-title">door painting</div>
+              <div class="img-subtitle">
+                By painting the doors of your home, you can immediately boost
+                your home’s curb appeal.
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="assets/images/photo_2023-09-22_15-09-35.png"
+                alt=""
+                class="card-img"
+              />
+              <div class="img-title">garbage disposal</div>
+              <div class="img-subtitle">
+                By painting the doors of your home, you can immediately boost
+                your home’s curb appeal.
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="assets/images/photo_2023-09-22_15-12-39.png"
+                alt=""
+                class="card-img"
+              />
+              <div class="img-title">plubming service</div>
+              <div class="img-subtitle">
+                By painting the doors of your home, you can immediately boost
+                your home’s curb appeal.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <img class="footer-img" src="assets/icons/logo.png" alt="logo" />
+          <div class="fburger" id="footer-menuopen">
+            <div class="fburger-link">
+              <div>
+                <span class="fline-1"></span><span class="fline-2"></span
+                ><span class="fline-3"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom" id="footer-links">
+            <ul class="footer-links">
+              <div class="footer-burger">
+                <div class="footer-burger-link" id="footer-menuclose">
+                  <div>
+                    <span class="footer-line-1"></span
+                    ><span class="footer-line-2"></span
+                    ><span class="footer-line-3"></span>
+                  </div>
+                </div>
+              </div>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Home</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">45</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">456</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">678</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Page 1</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Page 2</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Page 4</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Page 5</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Page 6</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Page 7</a>
+              </li>
+            </ul>
+            <div class="gradient" id="gradient"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="app.js"></script>
   </body>
